@@ -8,7 +8,7 @@ int main(){
 int opcion;
   bool vivo = true;
   while(vivo){
-    cout<<"Elija el ejercicio: "<<endl
+    cout<<"-------Menu-------: "<<endl
     <<"Ejercicio 1: 1"<<endl
     <<"Ejercicio 2: 2"<<endl
     <<"Salir: 3"<<endl;
@@ -18,9 +18,15 @@ int opcion;
         int x;
         cout<<"Ingrese un entero: ";
         cin>>x;
-        cout<<euler(x);<<endl;
+        cout<<"El numero de Euler es: "<<euler(x)<<endl;
         break;
       case 2:
+        int x1;
+        int y1;
+        int x2;
+        int y2;
+        int x3;
+        int y3;
 
         break;
       case 3:
